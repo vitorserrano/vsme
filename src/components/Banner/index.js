@@ -65,7 +65,7 @@ export default function Banner() {
             <strong> JavaScript</strong> e <strong>UX Design.</strong>
           </h1>
 
-          <ButtonDefault title="Ver projetos" />
+          <ButtonDefault title="Meus Trabalhos" />
         </Presentation>
 
         <Illustration>

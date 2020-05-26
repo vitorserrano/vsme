@@ -1,9 +1,14 @@
 import React from 'react';
 
-import { Button } from './styles';
+import { FiArrowRight } from 'react-icons/fi';
+
+import { Button, Text } from './styles';
 
 export default function ButtonDefault(props) {
   return (
-    <Button>{props.title}</Button>
+    <Button>
+      <Text>{props.title}</Text>
+      <FiArrowRight  size={32} color="#04d361"/>
+    </Button>
   );
 }

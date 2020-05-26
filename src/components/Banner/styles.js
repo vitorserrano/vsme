@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   width: 100%;
   height: 100vh;
   display: flex;
@@ -56,6 +56,6 @@ export const Illustration = styled.div`
 
   img {
     width: 100%;
-    max-width: 500px;
+    max-width: 550px;
   }
 `;
