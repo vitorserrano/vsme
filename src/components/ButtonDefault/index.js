@@ -8,7 +8,7 @@ export default function ButtonDefault(props) {
   return (
     <Button>
       <Text>{props.title}</Text>
-      <FiArrowRight  size={32} color="#04d361"/>
+      <FiArrowRight size={32} />
     </Button>
   );
 }

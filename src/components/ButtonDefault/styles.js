@@ -9,8 +9,9 @@ export const Button = styled.button`
   border-radius: 5px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background: #7159c1;
-  box-shadow: 0px 6px 0px rgba(113, 89, 193, 0.6);
+  color: ${props => props.theme.primary};
+  background: ${props => props.theme.secondary};
+  box-shadow: 0px 6px 0px ${props => props.theme.secondaryShadow};
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -25,5 +26,5 @@ export const Text = styled.span`
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #e1e1e6;
+  color: ${props => props.theme.text};
 `;

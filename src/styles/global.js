@@ -16,8 +16,8 @@ export default createGlobalStyle`
 
   body {
     font: 14px 'Roboto', sans-serif;
-    background: #121214;
-    color: #E1E1E6;
+    background: ${props => props.theme.background};
+    color: ${props => props.theme.text};
     -webkit-font-smoothing: antialiased !important;
   }
 
@@ -30,6 +30,6 @@ export default createGlobalStyle`
   }
 
   strong {
-    color: #7159C1;
+    color: ${props => props.theme.secondary};
   }
 `;

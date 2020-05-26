@@ -35,14 +35,14 @@ export const Icon = styled.li`
   padding-right: 30px;
 
   a {
-    color: #04d361;
+    color: ${props => props.theme.primary};
     font-size: 30px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
   
   a:hover {
-    color: #fff;
+    color: ${props => props.theme.tertiary};
   }
 `;
 
