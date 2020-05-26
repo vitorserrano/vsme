@@ -19,7 +19,6 @@ export default createGlobalStyle`
     background: #121214;
     color: #E1E1E6;
     -webkit-font-smoothing: antialiased !important;
-    overflow: hidden;
   }
 
   h1 {
