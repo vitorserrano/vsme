@@ -28,4 +28,8 @@ export default createGlobalStyle`
   ul {
     list-style: none;
   }
+
+  strong {
+    color: #7159C1;
+  }
 `;

@@ -2,48 +2,54 @@ import React from "react";
 
 import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 
-import { Wrapper, Container, Description, Illustration } from "./styles";
+import {
+  Wrapper,
+  Container,
+  Presentation,
+  ListIcon,
+  Icon,
+  Illustration,
+} from "./styles";
+
 import ImgDev from "../../assets/dev.svg";
 
+import ButtonDefault from "../../components/ButtonDefault";
+
 export default function Banner() {
+  const items = [
+    {
+      key: String(Math.random),
+      title: "Aqui é onde eu guardo os códigos",
+      href: "https://github.com/vitorserrano",
+      icon: <FiGithub />,
+    },
+    {
+      key: String(Math.random),
+      title: "Aqui tem um pouco de mim",
+      href: "https://www.instagram.com/virtuzera/",
+      icon: <FiInstagram />,
+    },
+    {
+      key: String(Math.random),
+      title: "Aqui tem meu currículo e alguns posts",
+      href: "https://www.linkedin.com/in/vitor-serrano/",
+      icon: <FiLinkedin />,
+    },
+  ];
+
   return (
     <Wrapper>
       <Container>
-        <Description>
-          <ul>
-            <li>
-              <a
-                className="icon"
-                title="Aqui é onde eu guardo os códigos"
-                href="https://github.com/vitorserrano"
-                target="_blank"
-              >
-                <FiGithub />
-              </a>
-            </li>
-
-            <li>
-              <a
-                className="icon"
-                title="Aqui tem um pouco de mim"
-                href="https://www.instagram.com/virtuzera/"
-                target="_blank"
-              >
-                <FiInstagram />
-              </a>
-            </li>
-
-            <li>
-              <a
-                className="icon"
-                title="Aqui tem meu currículo e alguns posts"
-                href="https://www.linkedin.com/in/vitor-serrano"
-                target="_blank"
-              >
-                <FiLinkedin />
-              </a>
-            </li>
-          </ul>
+        <Presentation>
+          <ListIcon>
+            {items.map((item) => (
+              <Icon key={item.key}>
+                <a title={item.title} href={item.href}>
+                  {item.icon}
+                </a>
+              </Icon>
+            ))}
+          </ListIcon>
 
           <h1>
             E aí? meu nome é <strong>Vitor</strong>
@@ -54,8 +60,8 @@ export default function Banner() {
             <strong> JavaScript</strong> e <strong>UX Design.</strong>
           </h1>
 
-          <button> ver projetos </button>
-        </Description>
+          <ButtonDefault title="Ver projetos" />
+        </Presentation>
 
         <Illustration>
           <img src={ImgDev} alt="Desenvolvedor" />
