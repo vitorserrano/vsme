@@ -44,7 +44,12 @@ export default function Banner() {
           <ListIcon>
             {items.map((item) => (
               <Icon key={item.key}>
-                <a title={item.title} href={item.href}>
+                <a 
+                  title={item.title} 
+                  href={item.href} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {item.icon}
                 </a>
               </Icon>

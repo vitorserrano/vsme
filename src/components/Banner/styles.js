@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   width: 100%;
   height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +37,8 @@ export const Icon = styled.li`
   a {
     color: #04d361;
     font-size: 30px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
   
   a:hover {
