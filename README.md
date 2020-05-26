@@ -27,7 +27,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ## :iphone: Screens
 
 <h4 align="center">
-    <img alt="Banner" title="#banner" width="500px" src=".github/Banner.png">
+    <img alt="Banner" title="#banner" width="900px" src=".github/Banner.png">
 </h4>
 
 <a id="como-usar"></a>
