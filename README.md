@@ -28,6 +28,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 <h4 align="center">
     <img alt="Banner" title="#banner" width="900px" src=".github/Banner.png">
+    <img alt="About" title="#about" width="900px" src=".github/About.png">
+    <img alt="Experience" title="#experience" width="900px" src=".github/Experience.png">
 </h4>
 
 <a id="como-usar"></a>
