@@ -38,7 +38,7 @@ export default createGlobalStyle`
     line-height: 1.5;
     margin-bottom: 40px;
     font-size: 18px;  
-    color: #a8a8b3;
+    color: ${props => props.theme.paragraph};
   }
 
   strong {

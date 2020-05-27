@@ -62,16 +62,13 @@ export const Job = styled.div`
     filter: brightness(1.2);
   }
 
-  p {
-    font-size: 18px;
-    font-weight: bold;
+  ul {
     margin-top: 40px;
-    margin-bottom: 8px;
   }
 
   ul li {
-    line-height: 1.8;
+    line-height: 2;
     font-size: 18px;
-    color: #a8a8b3;
+    color: ${props => props.theme.paragraph};
   }
 `;

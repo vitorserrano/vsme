@@ -12,21 +12,32 @@ import {
   Job,
 } from "./styles";
 
+import theme from "../../styles/theme";
+
 export default function Experience() {
+  const items = [
+    {
+      key: String(Math.random()),
+      icon: <FiPlay size={30} color={theme.tertiary} />,
+    },
+    {
+      key: String(Math.random()),
+      icon: <FiPlay size={30} color={theme.secondary} />,
+    },
+    {
+      key: String(Math.random()),
+      icon: <FiPlay size={30} color={theme.primary} />,
+    },
+  ];
+
   return (
     <Wrapper>
       <Container>
         <Title>
           <ListIcon>
-            <Icon>
-              <FiPlay size={30} color="#fff" />
-            </Icon>
-            <Icon>
-              <FiPlay size={30} color="#7159C1" />
-            </Icon>
-            <Icon>
-              <FiPlay size={30} color="#04d361" />
-            </Icon>
+            {items.map((item) => (
+              <Icon key={item.key}>{item.icon}</Icon>
+            ))}
           </ListIcon>
 
           <h1>
@@ -47,7 +58,6 @@ export default function Experience() {
               Digital One - Soluções Web
             </a>
 
-            <p>Desenvolvimento de soluções web</p>
             <ul>
               <li>Criação de aplicações do total zero.</li>
               <li>
@@ -73,7 +83,6 @@ export default function Experience() {
               SISTERRA - Soluções Corporativas
             </a>
 
-            <p>Atendimento ao cliente.</p>
             <ul>
               <li>
                 Assistência em rejeições de notas fiscais eletrônicas (NF-e,

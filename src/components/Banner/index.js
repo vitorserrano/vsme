@@ -18,19 +18,19 @@ import ButtonDefault from "../../components/ButtonDefault";
 export default function Banner() {
   const items = [
     {
-      key: String(Math.random),
+      key: String(Math.random()),
       title: "Aqui é onde eu guardo os códigos",
       href: "https://github.com/vitorserrano",
       icon: <FiGithub />,
     },
     {
-      key: String(Math.random),
+      key: String(Math.random()),
       title: "Aqui tem um pouco de mim",
       href: "https://www.instagram.com/virtuzera/",
       icon: <FiInstagram />,
     },
     {
-      key: String(Math.random),
+      key: String(Math.random()),
       title: "Aqui tem meu currículo e alguns posts",
       href: "https://www.linkedin.com/in/vitor-serrano/",
       icon: <FiLinkedin />,

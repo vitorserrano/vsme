@@ -28,3 +28,5 @@ export const Text = styled.span`
   text-transform: uppercase;
   color: ${props => props.theme.text};
 `;
+
+export const Icon = styled.div``;
