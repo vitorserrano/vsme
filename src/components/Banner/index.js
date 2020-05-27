@@ -56,14 +56,14 @@ export default function Banner() {
             ))}
           </ListIcon>
 
-          <h1>
+          <h2>
             E aí? meu nome é <strong>Vitor</strong>
-          </h1>
+          </h2>
 
-          <h1>
-            sou desenvolvedor web / mobile apaixonado por
+          <h2>
+            sou desenvolvedor web apaixonado por
             <strong> JavaScript</strong> e <strong>UX Design.</strong>
-          </h1>
+          </h2>
 
           <ButtonDefault title="Meus Trabalhos" />
         </Presentation>

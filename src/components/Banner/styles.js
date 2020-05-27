@@ -49,7 +49,6 @@ export const Icon = styled.li`
 export const Illustration = styled.div`
   width: 100%;
   max-width: 580px;
-  padding: 10px;
   display: flex;
   justify-content: flex-end;
   align-items: center;

@@ -1,13 +1,56 @@
-import React from 'react';
+import React from "react";
 
-import { Wrapper, Container } from './styles';
+import { FiUser } from "react-icons/fi";
+
+import {
+  Wrapper,
+  Container,
+  Illustration,
+  Description,
+  ListIcon,
+  Icon,
+} from "./styles";
+
+import ImgAbout from "../../assets/about.svg";
 
 export default function About() {
   return (
     <Wrapper>
       <Container>
-        <h1>About me</h1>
+        <Illustration>
+          <img src={ImgAbout} alt="Um pouco sobre mim" />
+        </Illustration>
+
+        <Description>
+          <ListIcon>
+            <Icon>
+              <FiUser size={30} color="#fff" />
+            </Icon>
+            <Icon>
+              <FiUser size={30} color="#7159C1" />
+            </Icon>
+            <Icon>
+              <FiUser size={30} color="#04d361" />
+            </Icon>
+          </ListIcon>
+
+          <h1>Um pouco sobre mim</h1>
+          <p>
+            Atualmente sou Desenvolvedor Web atuando com PHP, AngularJS e
+            JavaScript nos projetos/produtos do meu atual emprego.
+          </p>
+          <p>
+            Estudo Node.js, React e React Native por conta própria, pois sou
+            apaixonado por todo o ecossistema JavaScritpt e acredito que com
+            essa stack de tecnologias irei alcançar meus objetivos.
+          </p>
+          <p>
+            Meu objetivo é criar aplicações limpas utilizando bons padrões de
+            códigos com um design simples e intuitivo. Sou movido por construir
+            soluções com tecnologias atuais e escaláveis.
+          </p>
+        </Description>
       </Container>
     </Wrapper>
   );
-};
+}

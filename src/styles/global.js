@@ -22,11 +22,23 @@ export default createGlobalStyle`
   }
 
   h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
     font-size: 36px;
   }
 
   ul {
     list-style: none;
+  }
+
+  p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+    font-size: 18px;  
+    color: #a8a8b3;
   }
 
   strong {
