@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.section`
   width: 100%;
@@ -43,7 +43,7 @@ export const Job = styled.div`
   height: 100%;
   min-height: 407px;
   padding-top: 40px;
-  border-top: 4px solid ${props => props.theme.secondary};
+  border-top: 4px solid ${(props) => props.theme.secondary};
 
   h2 {
     margin-bottom: 8px;
@@ -54,7 +54,7 @@ export const Job = styled.div`
     text-decoration: none;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    color: ${props => props.theme.primary};
+    color: ${(props) => props.theme.primary};
     font-weight: normal;
   }
 
@@ -69,6 +69,6 @@ export const Job = styled.div`
   ul li {
     line-height: 2;
     font-size: 18px;
-    color: ${props => props.theme.paragraph};
+    color: ${(props) => props.theme.paragraph};
   }
 `;

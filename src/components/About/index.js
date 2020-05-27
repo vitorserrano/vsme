@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { FiUser } from "react-icons/fi";
+import { FiUser } from 'react-icons/fi';
 
 import {
   Wrapper,
@@ -9,11 +9,11 @@ import {
   Description,
   ListIcon,
   Icon,
-} from "./styles";
+} from './styles';
 
-import theme from "../../styles/theme";
+import theme from '../../styles/theme';
 
-import ImgAbout from "../../assets/about.svg";
+import ImgAbout from '../../assets/about.svg';
 
 export default function About() {
   const items = [
@@ -56,7 +56,7 @@ export default function About() {
             apaixonado por todo o ecossistema JavaScritpt e acredito que com
             essa stack de tecnologias irei alcançar meus objetivos.
           </p>
-          
+
           <p>
             Meu objetivo é criar aplicações limpas utilizando bons padrões de
             códigos com um design simples e intuitivo. Sou movido por construir

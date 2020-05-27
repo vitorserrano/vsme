@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.section`
   width: 100%;
@@ -32,7 +32,6 @@ export const Illustration = styled.div`
     max-width: 550px;
   }
 `;
-
 
 export const Description = styled.div`
   width: 100%;

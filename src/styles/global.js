@@ -16,8 +16,8 @@ export default createGlobalStyle`
 
   body {
     font: 14px 'Roboto', sans-serif;
-    background: ${props => props.theme.background};
-    color: ${props => props.theme.text};
+    background: ${(props) => props.theme.background};
+    color: ${(props) => props.theme.text};
     -webkit-font-smoothing: antialiased !important;
   }
 
@@ -37,11 +37,11 @@ export default createGlobalStyle`
   p {
     line-height: 1.5;
     margin-bottom: 40px;
-    font-size: 18px;  
-    color: ${props => props.theme.paragraph};
+    font-size: 18px;
+    color: ${(props) => props.theme.paragraph};
   }
 
   strong {
-    color: ${props => props.theme.secondary};
+    color: ${(props) => props.theme.secondary};
   }
 `;

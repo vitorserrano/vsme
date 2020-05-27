@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { FiPlay } from "react-icons/fi";
+import { FiPlay } from 'react-icons/fi';
 
 import {
   Wrapper,
@@ -10,9 +10,9 @@ import {
   Icon,
   Content,
   Job,
-} from "./styles";
+} from './styles';
 
-import theme from "../../styles/theme";
+import theme from '../../styles/theme';
 
 export default function Experience() {
   const items = [

@@ -12,11 +12,10 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <Routes />
-
         <GlobalStyle />
       </ThemeProvider>
     </>
   );
 }
- 
+
 export default App;
